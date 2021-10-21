@@ -41,6 +41,7 @@ main {
     min-height: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     padding: 50px;
     background-color: #fff;
@@ -51,14 +52,19 @@ main {
 
 /* Action style */
 .action {
-    background-color: #66BB6A;
     font-size: 16px;
     padding: 10px 20px;
     border-radius: 6px;
     margin: 10px 0;
 }
 
-.action:hover {
+/* Fetch style */
+.fetch {
+    background-color: #66BB6A;
+    width: 200px;
+}
+
+.fetch:hover {
     background-color: #4CAF50;
 }
 
@@ -134,7 +140,7 @@ figcaption {
     z-index: 1;
 }
 
-.action {
+.close {
     position: absolute;
     top: 50px;
     right: 50px;
