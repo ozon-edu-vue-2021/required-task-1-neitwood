@@ -170,9 +170,9 @@ const actionHandler = function (evt) {
  */
 const imageHandler = function (evt) {
     evt.preventDefault();
-
-    if (evt.target.closest('a')) {
-        getPictureInfo(evt.target.dataset.id);
+    const parentNode = evt.target.closest('a');
+    if (parentNode) {
+        getPictureInfo(parentNode.dataset.id);
     }
 }
 

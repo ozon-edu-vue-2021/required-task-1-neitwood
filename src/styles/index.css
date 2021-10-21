@@ -131,6 +131,7 @@ figcaption {
 
 .popup.open {
     visibility: visible;
+    z-index: 1;
 }
 
 .action {
