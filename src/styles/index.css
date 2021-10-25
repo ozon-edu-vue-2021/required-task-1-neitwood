@@ -9,7 +9,7 @@ body {
 img {
     width: 100%;
     max-width: 100%;
-    display: bloсk;
+    display: block;
 }
 
 a {
@@ -164,4 +164,5 @@ figcaption {
 
 .popup .link {
     display: inline;
+    background-color: unset;
 }
